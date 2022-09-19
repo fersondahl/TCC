@@ -34,7 +34,7 @@ geo_df['chave'] = geo_df.index
 
 
 mapa = pd.merge(left=mapa, right=geo_df[['Município']], left_index=True, right_index=True, how='left')
-munc = ["TANGUÁ", "NITERÓI", "SÃO GONÇALO", "ITABORAÍ", "MARICÁ"]
+munc = ["NITERÓI", "SÃO GONÇALO", "ITABORAÍ", "MARICÁ"]
 
 #%%
 with sns.axes_style('dark'):
